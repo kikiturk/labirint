@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.blackbutton {
+  background-color: #555555;
+  border: 1px;
+  color: red;
+  padding: 12px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#main{
+    position: absolute;
+    width: 484px;
+    height: 600px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: block;
+}
+body{
+	background:url("gif.gif")no-repeat;
+  background-size: cover;
+	}
+canvas,svg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 110;
+  left: 0;
+  margin: auto;
+  display: block;
+}
+canvas{
+	z-index:1;
+}
+div{
+	position: relative;
+	margin:250px auto;
+}
+#lol{
+  width: 484px;
+  height: 484px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	display: block;
+}
+#lab{
+  font-family: 'Alatsi', sans-serif;
+  color: red;
+  width: 484px;
+  height: 100px;
+  text-align: center;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	display: block;
+}
+#naslov{
+	font-family: comic-sans;
+	font-size: 80px;
+}
+#gumbi{
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+.gumbiTxt{
+	font-size: 30px;
+	font-family: comic-sans;
+	font-weight: bold;
+}
